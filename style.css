@@ -60,8 +60,23 @@ nav {
   margin-right: 16px;
 }
 
+.nav--frame a {
+  border-radius: 16px;
+  transition: 0.3s;
+}
+
+.nav--frame a:hover {
+  background: #1e2125;
+}
+
 .nav--frame-item {
   padding: 8px 16px;
+}
+
+.frame {
+  border-radius: 16px;
+  background: #23262a;
+  min-height: 400px;
 }
 
 a {

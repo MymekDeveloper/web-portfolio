@@ -1,6 +1,7 @@
 :root {
   --first-color: hsla(220, 10%, 10%, 1);
   --second-color: #ff7;
+  --font-color: #ffffff;
 }
 
 * {
@@ -15,6 +16,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  color: var(--font-color);
   flex-wrap: wrap;
   background-color: var(--first-color) !important;
 }
@@ -74,9 +76,19 @@ nav {
 }
 
 .frame {
-  border-radius: 16px;
+  padding: 24px 36px;
+  border-radius: 32px;
   background: #23262a;
   min-height: 400px;
+}
+
+.frame img {
+  width: 100%;
+  object-fit: fill;
+}
+
+#my-picture {
+  padding: 0px;
 }
 
 a {
@@ -90,8 +102,7 @@ a:link {
 }
 
 h1 {
-  font-size: 180px;
-  color: #1a3263 !important;
+  font-size: 40px;
 }
 
 h2 {

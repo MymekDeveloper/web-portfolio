@@ -122,6 +122,19 @@ button {
   width: 100%;
   height: 100%;
   padding: 0px;
+  object-fit: cover;
+}
+
+#siema {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.bottom-buttons {
+  position: absolute;
+  display: flex;
+  bottom: 24px;
 }
 
 .button-container {
@@ -155,7 +168,7 @@ button {
 }
 
 .image-container:hover img:last-child {
-  display: flex;
+  display: inline-block;
 }
 
 a {

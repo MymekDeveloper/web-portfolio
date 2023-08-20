@@ -104,7 +104,6 @@ button {
   padding: 24px 36px;
   border-radius: 32px;
   background: #23262a;
-  min-height: 598px;
 }
 
 #my-picture {
@@ -135,13 +134,21 @@ button {
   height: 100%;
   background-repeat: no-repeat;
   background-size:contain ;
-
+  min-height: 598px;
 }
 
 .bottom-buttons {
   position: absolute;
   display: flex;
   bottom: 24px;
+}
+
+.footer--socials {
+  position: absolute;
+  display: flex;
+  right: 0px;
+  flex-direction: column;
+  gap: 14px;
 }
 
 .button-container {

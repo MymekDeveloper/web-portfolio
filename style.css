@@ -125,15 +125,15 @@ button {
   object-fit: fill;
   background: url(images/hero-background.png);
   border: 1px;
-  border:#ffffff5f;
-  border-style:dotted;
+  border: #ffffff5f;
+  border-style: dotted;
 }
 
 .project-preview {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  background-size:contain ;
+  background-size: contain;
   min-height: 598px;
 }
 
@@ -144,9 +144,8 @@ button {
 }
 
 .footer--socials {
-  position: absolute;
   display: flex;
-  right: 0px;
+  justify-content: flex-end;
   flex-direction: column;
   gap: 14px;
 }
@@ -220,7 +219,7 @@ h5 {
   font-weight: 400 !important;
   letter-spacing: 0.5px;
   line-height: 157.5% !important;
-    color: var(--text-muted) !important;
+  color: var(--text-muted) !important;
 }
 
 h6 {
@@ -228,4 +227,11 @@ h6 {
   font-size: 12px;
   font-weight: 300;
   color: #1a3263 !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .open-to-work {
+    display: none;
+  }
 }

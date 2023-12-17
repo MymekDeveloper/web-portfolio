@@ -288,9 +288,71 @@ h6 {
   color: #1a3263 !important;
 }
 
+.footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .open-to-work {
     display: none;
+  }
+
+  .nav--frame {
+    width: 100%;
+  }
+
+  .contact-me-button {
+    margin: 12px 0px;
+    width: 100%;
+  }
+
+  .bottom-buttons {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 64px;
+  }
+
+  #hero-text {
+    margin: 24px 0px;
+    padding: 36px 12px 0px 12px !important;
+  }
+
+  .button-socials {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card--wrapper {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-right: 0px !important;
+    margin-top: 50px !important;
+  }
+
+  .card--wrapper:first-of-type {
+    margin-top: 100px !important;
+  }
+
+  .parent {
+    height: 300px;
+  }
+
+  #footer {
+    margin: 24px 0px;
+    padding: 36px 12px;
+  }
+
+  .footer--socials {
+    margin-top: 12px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .image-container {
+    margin-right: 0px;
   }
 }

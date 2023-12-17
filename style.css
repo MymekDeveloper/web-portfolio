@@ -87,15 +87,18 @@ button {
 
 .button-custom-light {
   color: var(--first-color);
+  box-sizing: border-box;
+  border: 2px solid white;
   padding: 8px 24px;
   border-radius: 16px;
   background: var(--font-color);
   font-weight: 500;
   margin-right: 16px;
-  transition: 0.3s;
 }
 
 .button-custom-light:hover {
+  border: 2px solid white;
+  border-style: solid;
   color: var(--font-color);
   background: var(--first-color);
 }

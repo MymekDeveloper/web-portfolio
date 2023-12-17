@@ -129,6 +129,62 @@ button {
   border-style: dotted;
 }
 
+.card--wrapper {
+  text-align: center;
+  margin-left: 0px !important;
+  margin-right: 20px !important;
+  flex-wrap: nowrap !important;
+  gap: 20px !important;
+}
+
+.parent {
+  margin: 20px !important;
+  height: 600px;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  margin: 0px !important;
+  border-radius: 32px;
+  padding: 0px !important;
+  gap: 20px !important;
+}
+
+.child {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  transition: all 1.1s;
+}
+
+.bg-one {
+  background-image: url(images/recipes-psp-highres.webp);
+}
+
+.bg-two {
+  background-image: url(images/RTA-highres.webp);
+}
+
+.bg-three {
+  background-image: url(images/Aquarius-highres.webp);
+}
+
+.bg-four {
+  background-image: url(images/BeautyCalc-highres.webp);
+}
+
+.bg-five {
+  background-image: url(images/mZUT-highres.webp);
+}
+
+.bg-six {
+  background-image: url(images/MeetOver-highres.webp);
+}
+
+.parent:hover .child {
+  transform: scale(1.05);
+}
+
 .project-preview {
   width: 100%;
   height: 100%;

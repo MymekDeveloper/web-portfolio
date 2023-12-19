@@ -246,6 +246,22 @@ button {
   display: inline-block;
 }
 
+.frame--password {
+  min-height:90vh;
+  margin: 0;
+  padding: 0;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input::placeholder {
+  color: var(--font-color) !important;
+  opacity: 1; /* Firefox */
+}
+
 a {
   text-decoration: none !important;
   color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity)) !important;
@@ -337,10 +353,6 @@ h6 {
     flex-direction: column !important;
     margin-right: 0px !important;
     margin-top: 50px !important;
-  }
-
-  .card--wrapper:first-of-type {
-    margin-top: 100px !important;
   }
 
   .parent {

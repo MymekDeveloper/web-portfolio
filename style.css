@@ -56,17 +56,14 @@ nav {
   margin-right: 16px;
 }
 
-.nav--frame a {
-  border-radius: 16px;
+.nav--frame-item {
+  padding: 8px 16px;
+  color: var(--text-muted);
   transition: 0.3s;
 }
 
-.nav--frame a:hover {
-  background: #1e2125;
-}
-
-.nav--frame-item {
-  padding: 8px 16px;
+.nav--frame-item:hover {
+  color: var(--font-color);
 }
 
 button {
@@ -94,6 +91,7 @@ button {
   background: var(--font-color);
   font-weight: 500;
   margin-right: 16px;
+  height: -webkit-fill-available;
 }
 
 .button-custom-light:hover {
@@ -289,11 +287,6 @@ h6 {
   color: #1a3263 !important;
 }
 
-.footer {
-  display: flex;
-  justify-content: flex-end;
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .open-to-work {
@@ -302,6 +295,10 @@ h6 {
 
   .nav--frame {
     width: 100%;
+  }
+
+  .nav--frame-item {
+    color: var(--font-color);
   }
 
   .button-custom-light {

@@ -248,12 +248,31 @@ button {
 
 .frame--password {
   margin: 0;
-  padding: 0;
+  padding: 20px;
   height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.password-icon {
+  width: 50%;
+  height: 30%;
+  margin-top: -5rem;
+}
+
+.password-content {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.password-input {
+  background-color: #23262a !important;
+   color: rgb(255, 255, 255) !important;
 }
 
 .error-message {

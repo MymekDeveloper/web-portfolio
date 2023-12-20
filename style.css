@@ -247,14 +247,26 @@ button {
 }
 
 .frame--password {
-  min-height:90vh;
   margin: 0;
   padding: 0;
-  height: 75vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.success-message {
+  color: green;
+}
+
+.form-control {
+  width: auto !important;
 }
 
 input::placeholder {
@@ -372,5 +384,9 @@ h6 {
 
   .image-container {
     margin-right: 0px;
+  }
+
+  .form-control {
+    width: 100% !important;
   }
 }

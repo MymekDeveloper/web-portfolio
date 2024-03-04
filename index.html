@@ -1,188 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-    crossorigin="anonymous"></script>
+    <title>Szymon Szwed - Portfolio</title>
+  </head>
 
-  <title>Szymon Szwed - Portfolio</title>
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <a href="index.html"><img src="images/Logo.svg" class="nav--logo" /></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
-          <li class="nav-item">
-            <div class="open-to-work">
-              <svg style="margin-right: -6px" xmlns="http://www.w3.org/2000/svg" width="15" height="18"
-                viewBox="0 0 15 18" fill="none">
-                <path d="M0 9L15 0.339745L15 17.6603L0 9Z" fill="#1E2025" />
-              </svg>
-              <label class="logo-label">Open to work</label>
-            </div>
-          </li>
-        </ul>
-        <div class="nav--frame">
-          <a href="#hero-section">
-            <div class="nav--frame-item">Home</div>
-          </a>
-          <a href="#portfolio">
-            <div class="nav--frame-item">Portfolio</div>
-          </a>
-          <a href="#footer">
-            <div class="nav--frame-item">About</div>
-          </a>
-        </div>
-        <form action="mailto:szwed.szymon1@gmail.com">
-          <button class="button-custom-dark">Contact me</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-  <div class="main-container container">
-    <section>
-      <div id="hero-section" class="hero-section row">
-        <div class="col-md-12 col-xl-5">
-          <div class="frame fill" id="my-picture">
-            <img id="hero-image" src="images/my-picture.png" />
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a href="index.html"><img src="images/Logo.svg" class="nav--logo" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item">
+              <div class="open-to-work">
+                <svg
+                  style="margin-right: -6px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="15"
+                  height="18"
+                  viewBox="0 0 15 18"
+                  fill="none"
+                >
+                  <path d="M0 9L15 0.339745L15 17.6603L0 9Z" fill="#1E2025" />
+                </svg>
+                <label class="logo-label">Open to work</label>
+              </div>
+            </li>
+          </ul>
+          <div class="nav--frame">
+            <a href="#hero-section">
+              <div class="nav--frame-item">Home</div>
+            </a>
+            <a href="#portfolio">
+              <div class="nav--frame-item">Portfolio</div>
+            </a>
+            <a href="#footer">
+              <div class="nav--frame-item">About</div>
+            </a>
           </div>
+          <form action="mailto:szwed.szymon1@gmail.com">
+            <button class="button-custom-dark">Contact me</button>
+          </form>
         </div>
-        <div class="col-md-12 col-xl-7">
-          <div class="frame" id="hero-text" style="padding-top: 72px; position: relative">
-            <h1>Hi, I’m Simon, a Full Stack developer and UX/UI designer.</h1>
-            <h5 style="margin-top: 36px">
-              I specialize in crafting clean and user-friendly websites. From
-              the initial analysis and design phase to prototyping and final
-              implementation.
-            </h5>
-            <div class="bottom-buttons">
-              <form action="mailto:szwed.szymon1@gmail.com">
-                <button class="button-custom-light">Contact me</button>
-              </form>
-              <div class="button-socials">
-                <a href="https://dribbble.com/Mymek" target="_blank" class="image-container">
-                  <!-- The first image will be displayed initially -->
-                  <img src="images/Dribbble.svg" alt="Dribbble" />
-                  <!-- The second image will be hidden initially -->
-                  <img src="images/DribbbleHover.svg" alt="DribbbleHover" />
-                </a>
-                <a href="https://www.behance.net/szymonszwed1" target="_blank" class="image-container">
-                  <img src="images/Behance.svg" alt="Behance" />
-                  <img src="images/BehanceHover.svg" alt="BehanceHover" />
-                </a>
-                <a href="https://github.com/MymekDeveloper" target="_blank" class="image-container">
-                  <img src="images/Github.svg" alt="Github" />
-                  <img src="images/GithubHover.svg" alt="GithubHover" />
-                </a>
-                <a href="https://www.linkedin.com/in/szymon-szwed/" target="_blank" class="image-container">
-                  <img src="images/Linkedin.svg" alt="Linkedin" />
-                  <img src="images/LinkedinHover.svg" alt="LinkedinHover" />
-                </a>
+      </div>
+    </nav>
+    <div class="main-container container">
+      <section>
+        <div id="hero-section" class="hero-section row">
+          <div class="col-md-12 col-xl-5">
+            <div class="frame fill" id="my-picture">
+              <img id="hero-image" src="images/my-picture.png" />
+            </div>
+          </div>
+          <div class="col-md-12 col-xl-7">
+            <div
+              class="frame"
+              id="hero-text"
+              style="padding-top: 72px; position: relative"
+            >
+              <h1>Hi, I’m Simon, a Full Stack developer and UX/UI designer.</h1>
+              <h5 style="margin-top: 36px">
+                I specialize in crafting clean and user-friendly websites. From
+                the initial analysis and design phase to prototyping and final
+                implementation.
+              </h5>
+              <div class="bottom-buttons">
+                <form action="mailto:szwed.szymon1@gmail.com">
+                  <button class="button-custom-light">Contact me</button>
+                </form>
+                <div class="button-socials">
+                  <a
+                    href="https://dribbble.com/Mymek"
+                    target="_blank"
+                    class="image-container"
+                  >
+                    <!-- The first image will be displayed initially -->
+                    <img src="images/Dribbble.svg" alt="Dribbble" />
+                    <!-- The second image will be hidden initially -->
+                    <img src="images/DribbbleHover.svg" alt="DribbbleHover" />
+                  </a>
+                  <a
+                    href="https://www.behance.net/szymonszwed1"
+                    target="_blank"
+                    class="image-container"
+                  >
+                    <img src="images/Behance.svg" alt="Behance" />
+                    <img src="images/BehanceHover.svg" alt="BehanceHover" />
+                  </a>
+                  <a
+                    href="https://github.com/MymekDeveloper"
+                    target="_blank"
+                    class="image-container"
+                  >
+                    <img src="images/Github.svg" alt="Github" />
+                    <img src="images/GithubHover.svg" alt="GithubHover" />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/szymon-szwed/"
+                    target="_blank"
+                    class="image-container"
+                  >
+                    <img src="images/Linkedin.svg" alt="Linkedin" />
+                    <img src="images/LinkedinHover.svg" alt="LinkedinHover" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div id="portfolio">
-        <div class="card--wrapper row mt-3">
-          <div class="parent col-md-12 col-xl-6">
-            <a href="password-protected.html">
-              <div class="child bg-one"></div>
-            </a>
+        <div id="portfolio">
+          <div class="card--wrapper row mt-3">
+            <div class="parent col-md-12 col-xl-6">
+              <a href="password-protected.html">
+                <div class="child bg-one"></div>
+              </a>
+            </div>
+            <div class="parent col-md-12 col-xl-6">
+              <a href="password-protected.html">
+                <div class="child bg-two"></div>
+              </a>
+            </div>
           </div>
-          <div class="parent col-md-12 col-xl-6">
-            <a href="password-protected.html">
-              <div class="child bg-two"></div>
-            </a>
+          <div class="card--wrapper row mt-3">
+            <div class="parent col-md-12 col-xl-6">
+              <a href="password-protected.html">
+                <div class="child bg-three"></div>
+              </a>
+            </div>
+            <div class="parent col-md-12 col-xl-6">
+              <a href="password-protected.html">
+                <div class="child bg-four"></div>
+              </a>
+            </div>
+          </div>
+          <h1 class="mt-5">Older projects</h1>
+          <div class="card--wrapper row mt-4">
+            <div class="parent col-md-12 col-xl-6">
+              <a href="password-protected.html">
+                <div class="child bg-five"></div>
+              </a>
+            </div>
+            <div class="parent col-md-12 col-xl-6">
+              <a href="password-protected.html">
+                <div class="child bg-six"></div>
+              </a>
+            </div>
           </div>
         </div>
-        <div class="card--wrapper row mt-3">
-          <div class="parent col-md-12 col-xl-6">
-            <a href="password-protected.html">
-              <div class="child bg-three"></div>
-            </a>
-          </div>
-          <div class="parent col-md-12 col-xl-6">
-            <a href="password-protected.html">
-              <div class="child bg-four"></div>
-            </a>
-          </div>
-        </div>
-        <h1 class="mt-5">Older projects</h1>
-        <div class="card--wrapper row mt-4">
-          <div class="parent col-md-12 col-xl-6">
-            <a href="password-protected.html">
-              <div class="child bg-five"></div>
-            </a>
-          </div>
-          <div class="parent col-md-12 col-xl-6">
-            <a href="password-protected.html">
-              <div class="child bg-six"></div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div id="footer" class="frame row mt-4 mb-4">
-        <div class="col-md-12 col-xl-6" style="
+        <div id="footer" class="frame row mt-4 mb-4">
+          <div
+            class="col-md-12 col-xl-6"
+            style="
               display: flex;
               flex-direction: column;
               justify-content: space-between;
-            ">
-          <div>
-            <h1>Want to work together?</h1>
-            <h5 class="mt-2">
-              Feel free to reach out for collaborations or anything you need
-            </h5>
-            <h5 class="mt-4">szwed.szymon1@gmail.com</h5>
+            "
+          >
+            <div>
+              <h1>Want to work together?</h1>
+              <h5 class="mt-2">
+                Feel free to reach out for collaborations or anything you need
+              </h5>
+              <h5 class="mt-4">szwed.szymon1@gmail.com</h5>
+            </div>
+            <form action="mailto:szwed.szymon1@gmail.com">
+              <button class="button-custom-light">Contact me</button>
+            </form>
           </div>
-          <form action="mailto:szwed.szymon1@gmail.com">
-            <button class="button-custom-light">Contact me</button>
-          </form>
-        </div>
-        <div class="col-md-12 col-xl-6">
-          <div class="footer--socials">
-            <a href="https://dribbble.com/Mymek" target="_blank" class="image-container">
-              <!-- The first image will be displayed initially -->
-              <img src="images/Dribbble.svg" alt="Dribbble" />
-              <!-- The second image will be hidden initially -->
-              <img src="images/DribbbleHover.svg" alt="DribbbleHover" />
-            </a>
-            <a href="https://www.behance.net/szymonszwed1" target="_blank" class="image-container">
-              <img src="images/Behance.svg" alt="Behance" />
-              <img src="images/BehanceHover.svg" alt="BehanceHover" />
-            </a>
-            <a href="https://github.com/MymekDeveloper" target="_blank" class="image-container">
-              <img src="images/Github.svg" alt="Github" />
-              <img src="images/GithubHover.svg" alt="GithubHover" />
-            </a>
-            <a href="https://www.linkedin.com/in/szymon-szwed/" target="_blank" class="image-container">
-              <img src="images/Linkedin.svg" alt="Linkedin" />
-              <img src="images/LinkedinHover.svg" alt="LinkedinHover" />
-            </a>
+          <div class="col-md-12 col-xl-6">
+            <div class="footer--socials">
+              <a
+                href="https://dribbble.com/Mymek"
+                target="_blank"
+                class="image-container"
+              >
+                <!-- The first image will be displayed initially -->
+                <img src="images/Dribbble.svg" alt="Dribbble" />
+                <!-- The second image will be hidden initially -->
+                <img src="images/DribbbleHover.svg" alt="DribbbleHover" />
+              </a>
+              <a
+                href="https://www.behance.net/szymonszwed1"
+                target="_blank"
+                class="image-container"
+              >
+                <img src="images/Behance.svg" alt="Behance" />
+                <img src="images/BehanceHover.svg" alt="BehanceHover" />
+              </a>
+              <a
+                href="https://github.com/MymekDeveloper"
+                target="_blank"
+                class="image-container"
+              >
+                <img src="images/Github.svg" alt="Github" />
+                <img src="images/GithubHover.svg" alt="GithubHover" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/szymon-szwed/"
+                target="_blank"
+                class="image-container"
+              >
+                <img src="images/Linkedin.svg" alt="Linkedin" />
+                <img src="images/LinkedinHover.svg" alt="LinkedinHover" />
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  </div>
-  <script src="script.js"></script>
-</body>
-
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>

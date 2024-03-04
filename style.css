@@ -22,6 +22,43 @@ body {
   background-color: var(--first-color) !important;
 }
 
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.navbar {
+  animation: fade-down 1.5s 0.5s backwards;
+}
+
 nav {
   color: white;
 }
@@ -112,6 +149,7 @@ button {
   height: 100%;
   padding: 0px;
   object-fit: cover;
+  animation: fade-up 1.5s 2s backwards;
 }
 
 #hero-image {
@@ -128,6 +166,7 @@ button {
   border: 1px;
   border: #ffffff5f;
   border-style: dotted;
+  animation: fade-up 1.5s 3.5s backwards;
 }
 
 .card--wrapper {
@@ -136,6 +175,9 @@ button {
   margin-right: 20px !important;
   flex-wrap: nowrap !important;
   gap: 20px !important;
+  animation: fade linear both;
+  animation-timeline: view();
+  animation-range: entry 10% cover 20%;
 }
 
 .parent {
@@ -272,7 +314,7 @@ button {
 
 .password-input {
   background-color: #23262a !important;
-   color: rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 .error-message {

@@ -130,7 +130,7 @@ button {
   background: var(--font-color);
   font-weight: 500;
   margin-right: 16px;
-  height: -webkit-fill-available;
+  height: 100%;
 }
 
 .button-custom-light:hover {
@@ -243,6 +243,12 @@ button {
   position: absolute;
   display: flex;
   bottom: 24px;
+}
+
+.footer--text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer--socials {
@@ -379,8 +385,8 @@ h6 {
   color: #1a3263 !important;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (phones, 1200px and down) */
+@media only screen and (max-width: 1200px) {
   .open-to-work {
     display: none;
   }
@@ -452,5 +458,13 @@ h6 {
 
   .form-control {
     width: 100% !important;
+  }
+
+  .footer--text-container {
+    display: block;
+  }
+
+  #footer--main_text {
+    font-size: 1.6rem;
   }
 }
